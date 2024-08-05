@@ -1,0 +1,7 @@
+2024-04-30 13:12:29,462 [INFO] Created log file
+2024-04-30 13:12:29,491 [INFO] Running NEURON with mpi (45 cores).
+2024-04-30 13:12:29,795 [INFO] Building cells.
+2024-04-30 13:12:29,861 [INFO] Building recurrent connections
+2024-04-30 13:12:37,803 [INFO] Building virtual cell stimulations for baseline_spikes
+2024-04-30 13:12:38,571 [INFO] Building virtual cell stimulations for thalamus_spikes
+2024-04-30 13:12:38,751 [INFO] Building virtual cell stimulations for uncorrelated_spikes

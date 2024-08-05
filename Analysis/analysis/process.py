@@ -101,7 +101,7 @@ def firing_rate(spikes_df, num_cells=None, time_windows=(0.,), frequency=True):
     time_windows: list of time windows for counting spikes (second)
     frequency: whether return firing frequency in Hz or just number of spikes
     """
-    if not spikes_df['timestamps'].is_monotonic:
+    if not spikes_df['timestamps'].is_monotonic_increasing:
         spikes_df = spikes_df.sort_values(by='timestamps')
     if num_cells is None:
         num_cells = spikes_df['node_ids'].max() + 1
@@ -314,51 +314,6 @@ def get_windowed_data(x, windows, win_grp_idx, dim='time',
     return x_win, x_win_onff, x_win_avg
 
 
-# cone of influence in frequency for cmorxx-1.0 wavelet
-f0 = 2 * np.pi
-CMOR_COI = 2 ** -0.5
-CMOR_FLAMBDA = 4 * np.pi / (f0 + (2 + f0 ** 2) ** 0.5)
-COI_FREQ = 1 / (CMOR_COI * CMOR_FLAMBDA)
-
-def cwt_spectrogram(x, fs, nNotes=6, nOctaves=np.inf, freq_range=(0, np.inf),
-                    bandwidth=1.0, axis=-1, detrend=False, normalize=False):
-    """Calculate spectrogram using continuous wavelet transform"""
-    x = np.asarray(x)
-    N = x.shape[axis]
-    times = np.arange(N) / fs
-    # detrend and normalize
-    if detrend:
-        x = ss.detrend(x, axis=axis, type='linear')
-    if normalize:
-        x = x / x.std()
-    # Define some parameters of our wavelet analysis. 
-    # range of scales (in time) that makes sense
-    # min = 2 (Nyquist frequency)
-    # max = np.floor(N/2)
-    nOctaves = min(nOctaves, np.log2(2 * np.floor(N / 2)))
-    scales = 2 ** np.arange(1, nOctaves, 1 / nNotes)
-    # cwt and the frequencies used. 
-    # Use the complex morelet with bw=2*bandwidth^2 and center frequency of 1.0
-    # bandwidth is sigma of the gaussian envelope
-    wavelet = 'cmor' + str(2 * bandwidth ** 2) + '-1.0'
-    frequencies = pywt.scale2frequency(wavelet, scales) * fs
-    scales = scales[(frequencies >= freq_range[0]) & (frequencies <= freq_range[1])]
-    coef, frequencies = pywt.cwt(x, scales[::-1], wavelet=wavelet, sampling_period=1 / fs, axis=axis)
-    power = np.real(coef * np.conj(coef)) # equivalent to power = np.abs(coef)**2
-    # cone of influence in terms of wavelength
-    coi = N / 2 - np.abs(np.arange(N) - (N - 1) / 2)
-    # cone of influence in terms of frequency
-    coif = COI_FREQ * fs / coi
-    return power, times, frequencies, coif
-
-
-def instant_amp_by_cwt(x, fs, axis=-1, **cwt_kwargs):
-    """Estimate instantaneous amplitude of signal by continuous wavelet transform"""
-    sxx, _, frequencies, _ = cwt_spectrogram(x, fs, axis=axis, **cwt_kwargs)
-    amp = np.trapz(sxx, frequencies, axis=0) ** 0.5  # integrate over frequencies
-    return amp
-
-
 def wave_hilbert(x, freq_band, fs, filt_order=2, axis=-1):
     sos = ss.butter(N=filt_order, Wn=freq_band, btype='bandpass', fs=fs, output='sos')
     x_a = ss.hilbert(ss.sosfiltfilt(sos, x, axis=axis), axis=axis)
@@ -372,28 +327,21 @@ def wave_cwt(x, freq, fs, bandwidth=1.0, axis=-1):
 
 
 def get_waves(da, fs, waves, transform, dim='time', component='amp', **kwargs):
+    x = [xr.zeros_like(da) for _ in range(len(waves))]
     axis = da.dims.index(dim)
-    comp_funcs = {'amp': np.abs, 'pha': np.angle, 'none': None}
-    comp_func = comp_funcs.get(component, comp_funcs['none'])
-    dtype = complex if comp_func is None else None
-    x = [xr.zeros_like(da, dtype=dtype) for _ in range(len(waves))]
+    comp_funcs = {'amp': np.abs, 'pha': np.angle}
+    comp_func = comp_funcs.get(component, comp_funcs['amp'])
     for i, freq in enumerate(waves.values()):
         x_a = transform(da.values, freq, fs, axis=axis, **kwargs)
-        x[i][:] = x_a if comp_func is None else comp_func(x_a)
-        x = xr.concat(x, dim=pd.Index(waves.keys(), name='wave')).rename('wave_' + component)
-    if component == 'both':
-        funcs = ['amp', 'pha']
-        xs = [xr.zeros_like(x, dtype=float) for _ in range(len(funcs))]
-        for i, f in enumerate(funcs):
-            xs[i][:] = comp_funcs[f](x)
-        x = xr.concat(xs, dim=pd.Index(funcs, name='component'))
+        x[i][:] = comp_func(x_a)
+    x = xr.concat(x, dim=pd.Index(waves.keys(), name='wave')).rename('wave_' + component)
     return x
 
 
 def exponential_spike_filter(spikes, tau, cut_val=1e-3, min_rate=None,
                              normalize=False, last_jump=True, only_jump=False):
     """Filter spike train (boolean/int array) with exponential response
-    spikes: spike count array (time bins along the last axis)
+    spikes: spike count array (units, time bins)
     tau: time constant of the exponential decay (normalized by time step)
     cut_val: value at which to cutoff the tail of the exponential response
     min_rate: minimum rate of spike (normalized by sampling rate). Default: 1/(9*tau)
@@ -414,7 +362,8 @@ def exponential_spike_filter(spikes, tau, cut_val=1e-3, min_rate=None,
         elif last_jump:
             jump = np.ones(shape)
     else:
-        spikes = spikes.reshape(-1, shape[-1])
+        if spikes.ndim == 1:
+            spikes = spikes[None, :]
         min_val = np.exp(-9) if min_rate is None else \
             (0 if min_rate <= 0 else np.exp(-1 / min_rate / tau))
         t_cut = int(np.ceil(-np.log(cut_val) * tau))
@@ -473,29 +422,14 @@ def get_windowed_spikes(spikes_df, windows, node_ids):
     return tspk
 
 
-def get_spike_amplitude(amp, time, tspk, axis=-1):
-    """Get amplitude at spike times"""
-    single = len(tspk) and isinstance(tspk[0], float)
-    if single:
-        tspk = [tspk]
-    amp_interp = interp1d(time, amp, axis=axis, assume_sorted=True)
-    spk_amp = [amp_interp(t) for t in tspk]
-    if single:
-        spk_amp = spk_amp[0]
-    return spk_amp
-
-
-def get_spike_phase(phase, time, tspk, axis=-1, min_pha=0.):
+def get_spike_phase(phase, time, tspk):
     """Get phase at spike times"""
     single = len(tspk) and isinstance(tspk[0], float)
     if single:
         tspk = [tspk]
-    phase_interp = interp1d(time, np.unwrap(phase, axis=axis), axis=axis, assume_sorted=True)
+    phase_interp = interp1d(time, np.unwrap(phase), assume_sorted=True)
     pi2 = 2 * np.pi
-    if min_pha:
-        spk_pha = [(phase_interp(t) - min_pha) % pi2 + min_pha for t in tspk]
-    else:
-        spk_pha = [phase_interp(t) % pi2 for t in tspk]
+    spk_pha = [phase_interp(t) % pi2 for t in tspk]
     if single:
         spk_pha = spk_pha[0]
     return spk_pha

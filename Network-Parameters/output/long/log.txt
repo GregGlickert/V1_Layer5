@@ -1,0 +1,41 @@
+2024-07-10 11:08:47,026 [INFO] Created log file
+2024-07-10 11:08:47,106 [INFO] Running NEURON with mpi (45 cores).
+2024-07-10 11:08:47,261 [INFO] Building cells.
+2024-07-10 11:08:47,293 [INFO] Building recurrent connections
+2024-07-10 11:08:51,203 [INFO] Building virtual cell stimulations for baseline_spikes
+2024-07-10 11:08:51,541 [INFO] Building virtual cell stimulations for thalamus_spikes
+2024-07-10 11:08:51,626 [INFO] Building virtual cell stimulations for uncorrelated_spikes
+2024-07-10 11:08:52,497 [WARNING] Unrecognized module ecp, skipping.
+2024-07-10 11:08:52,500 [INFO] Running simulation for 14500.000 ms with the time step 0.100 ms
+2024-07-10 11:08:52,500 [INFO] Starting timestep: 0 at t_sim: 0.000 ms
+2024-07-10 11:08:52,500 [INFO] Block save every 5000 steps
+2024-07-10 11:08:57,333 [INFO]     step:5000 t_sim:500.00 ms
+2024-07-10 11:09:02,523 [INFO]     step:10000 t_sim:1000.00 ms
+2024-07-10 11:09:07,974 [INFO]     step:15000 t_sim:1500.00 ms
+2024-07-10 11:09:13,689 [INFO]     step:20000 t_sim:2000.00 ms
+2024-07-10 11:09:19,449 [INFO]     step:25000 t_sim:2500.00 ms
+2024-07-10 11:09:25,311 [INFO]     step:30000 t_sim:3000.00 ms
+2024-07-10 11:09:31,423 [INFO]     step:35000 t_sim:3500.00 ms
+2024-07-10 11:09:37,529 [INFO]     step:40000 t_sim:4000.00 ms
+2024-07-10 11:09:43,781 [INFO]     step:45000 t_sim:4500.00 ms
+2024-07-10 11:09:50,154 [INFO]     step:50000 t_sim:5000.00 ms
+2024-07-10 11:09:56,710 [INFO]     step:55000 t_sim:5500.00 ms
+2024-07-10 11:10:03,440 [INFO]     step:60000 t_sim:6000.00 ms
+2024-07-10 11:10:10,156 [INFO]     step:65000 t_sim:6500.00 ms
+2024-07-10 11:10:16,737 [INFO]     step:70000 t_sim:7000.00 ms
+2024-07-10 11:10:23,397 [INFO]     step:75000 t_sim:7500.00 ms
+2024-07-10 11:10:30,062 [INFO]     step:80000 t_sim:8000.00 ms
+2024-07-10 11:10:36,733 [INFO]     step:85000 t_sim:8500.00 ms
+2024-07-10 11:10:43,446 [INFO]     step:90000 t_sim:9000.00 ms
+2024-07-10 11:10:50,399 [INFO]     step:95000 t_sim:9500.00 ms
+2024-07-10 11:10:57,327 [INFO]     step:100000 t_sim:10000.00 ms
+2024-07-10 11:11:04,078 [INFO]     step:105000 t_sim:10500.00 ms
+2024-07-10 11:11:11,037 [INFO]     step:110000 t_sim:11000.00 ms
+2024-07-10 11:11:18,096 [INFO]     step:115000 t_sim:11500.00 ms
+2024-07-10 11:11:25,107 [INFO]     step:120000 t_sim:12000.00 ms
+2024-07-10 11:11:32,185 [INFO]     step:125000 t_sim:12500.00 ms
+2024-07-10 11:11:39,265 [INFO]     step:130000 t_sim:13000.00 ms
+2024-07-10 11:11:46,401 [INFO]     step:135000 t_sim:13500.00 ms
+2024-07-10 11:11:53,625 [INFO]     step:140000 t_sim:14000.00 ms
+2024-07-10 11:12:00,761 [INFO]     step:145000 t_sim:14500.00 ms
+2024-07-10 11:12:01,076 [INFO] Simulation completed in 3.0 minutes, 8.576 seconds 

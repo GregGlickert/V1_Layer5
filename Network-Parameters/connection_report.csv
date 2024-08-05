@@ -1,0 +1,101 @@
+Source,Target,Fraction of connected pairs in possible ones (%),Fraction of connected pairs in all pairs (%)
+cortex: pop_name=='['CP']',cortex: pop_name=='['CP']',[23.24894339  6.76893231],[23.24894339  6.76893231]
+cortex: pop_name=='['CS']',cortex: pop_name=='['CS']',[10.18776415  0.90265364],[10.18776415  0.90265364]
+cortex: pop_name=='['CP']',cortex: pop_name=='['CS']',[0.9417301  8.4083045  0.22491349],[0.9417301  8.4083045  0.22491349]
+cortex: pop_name=='['FSI']',cortex: pop_name=='['FSI']',[47.14932127 47.14932127],[47.14932127 47.14932127]
+cortex: pop_name=='['LTS']',cortex: pop_name=='['LTS']',[17.28085868  2.86225403],[17.28085868  2.86225403]
+cortex: pop_name=='['FSI']',cortex: pop_name=='['LTS']',[13.50226244 27.63348416 10.98190045],[13.50226244 27.63348416 10.98190045]
+cortex: pop_name=='['CP']',cortex: pop_name=='['FSI']',[11.60484429 26.32179931  9.2366782 ],[11.60484429 26.32179931  9.2366782 ]
+cortex: pop_name=='['CS']',cortex: pop_name=='['FSI']',[14.24636678 23.26228374  9.95570934],[14.24636678 23.26228374  9.95570934]
+cortex: pop_name=='['CP']',cortex: pop_name=='['LTS']',[15.12126697 32.34932127 14.72036199],[15.12126697 32.34932127 14.72036199]
+cortex: pop_name=='['CS']',cortex: pop_name=='['LTS']',[16.88778281  8.04705882  4.12036199],[16.88778281  8.04705882  4.12036199]
+cortex: pop_name=='FSI'Gap,cortex: pop_name=='FSI'Gap,4.6780368952314655,2.3252595155709344
+cortex: pop_name=='LTS'Gap,cortex: pop_name=='LTS'Gap,1.419200954084675,0.7041420118343195
+uncorrelated: pop_name=='['CP']',cortex: pop_name=='['CP']',14.020038784744667,14.020038784744667
+uncorrelated: pop_name=='['CS']',cortex: pop_name=='['CS']',5.2325543916196615,5.2325543916196615
+uncorrelated: pop_name=='['CP']',cortex: pop_name=='['CS']',0.9243697478991597,0.9243697478991597
+uncorrelated: pop_name=='['CS']',cortex: pop_name=='['CP']',7.7534246575342465,7.7534246575342465
+uncorrelated: pop_name=='['FSI']',cortex: pop_name=='['FSI']',44.3190975020145,44.3190975020145
+uncorrelated: pop_name=='['LTS']',cortex: pop_name=='['LTS']',7.6923076923076925,7.6923076923076925
+uncorrelated: pop_name=='['FSI']',cortex: pop_name=='['LTS']',11.791359325605901,11.791359325605901
+uncorrelated: pop_name=='['LTS']',cortex: pop_name=='['FSI']',23.46638655462185,23.46638655462185
+uncorrelated: pop_name=='['CP']',cortex: pop_name=='['FSI']',8.947963800904978,8.947963800904978
+uncorrelated: pop_name=='['FSI']',cortex: pop_name=='['CP']',19.2812248186946,19.2812248186946
+uncorrelated: pop_name=='['CS']',cortex: pop_name=='['FSI']',10.68170829975826,10.68170829975826
+uncorrelated: pop_name=='['FSI']',cortex: pop_name=='['CS']',17.20870265914585,17.20870265914585
+uncorrelated: pop_name=='['CP']',cortex: pop_name=='['LTS']',10.794590025359255,10.794590025359255
+uncorrelated: pop_name=='['LTS']',cortex: pop_name=='['CP']',21.63235294117647,21.63235294117647
+uncorrelated: pop_name=='['CS']',cortex: pop_name=='['LTS']',12.025289778714436,12.025289778714436
+uncorrelated: pop_name=='['LTS']',cortex: pop_name=='['CS']',5.651260504201681,5.651260504201681
+cortex: pop_name=='['CP']',cortex: pop_name=='['CP']',[23.24894339  6.76893231],[23.24894339  6.76893231]
+cortex: pop_name=='['CS']',cortex: pop_name=='['CS']',[10.18776415  0.90265364],[10.18776415  0.90265364]
+cortex: pop_name=='['CP']',cortex: pop_name=='['CS']',[0.9417301  8.4083045  0.22491349],[0.9417301  8.4083045  0.22491349]
+cortex: pop_name=='['FSI']',cortex: pop_name=='['FSI']',[47.14932127 47.14932127],[47.14932127 47.14932127]
+cortex: pop_name=='['LTS']',cortex: pop_name=='['LTS']',[17.28085868  2.86225403],[17.28085868  2.86225403]
+cortex: pop_name=='['FSI']',cortex: pop_name=='['LTS']',[13.50226244 27.63348416 10.98190045],[13.50226244 27.63348416 10.98190045]
+cortex: pop_name=='['CP']',cortex: pop_name=='['FSI']',[11.60484429 26.32179931  9.2366782 ],[11.60484429 26.32179931  9.2366782 ]
+cortex: pop_name=='['CS']',cortex: pop_name=='['FSI']',[14.24636678 23.26228374  9.95570934],[14.24636678 23.26228374  9.95570934]
+cortex: pop_name=='['CP']',cortex: pop_name=='['LTS']',[15.12126697 32.34932127 14.72036199],[15.12126697 32.34932127 14.72036199]
+cortex: pop_name=='['CS']',cortex: pop_name=='['LTS']',[16.88778281  8.04705882  4.12036199],[16.88778281  8.04705882  4.12036199]
+cortex: pop_name=='FSI'Gap,cortex: pop_name=='FSI'Gap,4.6780368952314655,2.3252595155709344
+cortex: pop_name=='LTS'Gap,cortex: pop_name=='LTS'Gap,1.419200954084675,0.7041420118343195
+uncorrelated: pop_name=='['CP']',cortex: pop_name=='['CP']',14.020038784744667,14.020038784744667
+uncorrelated: pop_name=='['CS']',cortex: pop_name=='['CS']',5.2325543916196615,5.2325543916196615
+uncorrelated: pop_name=='['CP']',cortex: pop_name=='['CS']',0.9243697478991597,0.9243697478991597
+uncorrelated: pop_name=='['CS']',cortex: pop_name=='['CP']',7.7534246575342465,7.7534246575342465
+uncorrelated: pop_name=='['FSI']',cortex: pop_name=='['FSI']',44.3190975020145,44.3190975020145
+uncorrelated: pop_name=='['LTS']',cortex: pop_name=='['LTS']',7.6923076923076925,7.6923076923076925
+uncorrelated: pop_name=='['FSI']',cortex: pop_name=='['LTS']',11.791359325605901,11.791359325605901
+uncorrelated: pop_name=='['LTS']',cortex: pop_name=='['FSI']',23.46638655462185,23.46638655462185
+uncorrelated: pop_name=='['CP']',cortex: pop_name=='['FSI']',8.947963800904978,8.947963800904978
+uncorrelated: pop_name=='['FSI']',cortex: pop_name=='['CP']',19.2812248186946,19.2812248186946
+uncorrelated: pop_name=='['CS']',cortex: pop_name=='['FSI']',10.68170829975826,10.68170829975826
+uncorrelated: pop_name=='['FSI']',cortex: pop_name=='['CS']',17.20870265914585,17.20870265914585
+uncorrelated: pop_name=='['CP']',cortex: pop_name=='['LTS']',10.794590025359255,10.794590025359255
+uncorrelated: pop_name=='['LTS']',cortex: pop_name=='['CP']',21.63235294117647,21.63235294117647
+uncorrelated: pop_name=='['CS']',cortex: pop_name=='['LTS']',12.025289778714436,12.025289778714436
+uncorrelated: pop_name=='['LTS']',cortex: pop_name=='['CS']',5.651260504201681,5.651260504201681
+cortex: pop_name=='['CP']',cortex: pop_name=='['CP']',[5.71580303 0.26851993],[5.71580303 0.26851993]
+cortex: pop_name=='['CS']',cortex: pop_name=='['CS']',[2.18980244 0.03722398],[2.18980244 0.03722398]
+cortex: pop_name=='['CP']',cortex: pop_name=='['CS']',[0.18664083 1.68533149 0.0092955 ],[0.18664083 1.68533149 0.0092955 ]
+cortex: pop_name=='['FSI']',cortex: pop_name=='['FSI']',[15.94263147  2.59654957],[15.94263147  2.59654957]
+cortex: pop_name=='['LTS']',cortex: pop_name=='['LTS']',[3.64347517 0.10572478],[3.64347517 0.10572478]
+cortex: pop_name=='['FSI']',cortex: pop_name=='['LTS']',[2.66153846 5.49393665 0.43710407],[2.66153846 5.49393665 0.43710407]
+cortex: pop_name=='['CP']',cortex: pop_name=='['FSI']',[2.31687197 5.29320415 0.36440138],[2.31687197 5.29320415 0.36440138]
+cortex: pop_name=='['CS']',cortex: pop_name=='['FSI']',[2.8600692  4.66729412 0.39595848],[2.8600692  4.66729412 0.39595848]
+cortex: pop_name=='['CP']',cortex: pop_name=='['LTS']',[3.04713122 6.46638914 0.58953846],[3.04713122 6.46638914 0.58953846]
+cortex: pop_name=='['CS']',cortex: pop_name=='['LTS']',[3.38975566 1.59565611 0.15858824],[3.38975566 1.59565611 0.15858824]
+shell: pop_name=='['CP']',cortex: pop_name=='['CP']',3.0047224913494808,3.0047224913494808
+shell: pop_name=='['CS']',cortex: pop_name=='['CS']',1.1111824682814302,1.1111824682814302
+shell: pop_name=='['CP']',cortex: pop_name=='['CS']',0.1899921568627451,0.1899921568627451
+shell: pop_name=='['CS']',cortex: pop_name=='['CP']',1.6808359861591695,1.6808359861591695
+shell: pop_name=='['FSI']',cortex: pop_name=='['FSI']',9.290888119953863,9.290888119953863
+shell: pop_name=='['LTS']',cortex: pop_name=='['LTS']',1.8864694280078895,1.8864694280078895
+shell: pop_name=='['FSI']',cortex: pop_name=='['LTS']',2.638129713423831,2.638129713423831
+shell: pop_name=='['LTS']',cortex: pop_name=='['FSI']',5.491463046757165,5.491463046757165
+shell: pop_name=='['CP']',cortex: pop_name=='['FSI']',2.3253979238754328,2.3253979238754328
+shell: pop_name=='['FSI']',cortex: pop_name=='['CP']',5.281965397923876,5.281965397923876
+shell: pop_name=='['CS']',cortex: pop_name=='['FSI']',2.8610657439446365,2.8610657439446365
+shell: pop_name=='['FSI']',cortex: pop_name=='['CS']',4.660991926182238,4.660991926182238
+shell: pop_name=='['CP']',cortex: pop_name=='['LTS']',3.041447963800905,3.041447963800905
+shell: pop_name=='['LTS']',cortex: pop_name=='['CP']',6.474775263951734,6.474775263951734
+shell: pop_name=='['CS']',cortex: pop_name=='['LTS']',3.3935444947209654,3.3935444947209654
+shell: pop_name=='['LTS']',cortex: pop_name=='['CS']',1.608024132730015,1.608024132730015
+cortex: pop_name=='FSI'Gap,cortex: pop_name=='FSI'Gap,4.5517910344349755,2.2732179930795846
+cortex: pop_name=='LTS'Gap,cortex: pop_name=='LTS'Gap,1.4398482873059144,0.7188165680473373
+uncorrelated: pop_name=='['CP']',cortex: pop_name=='['CP']',2.814760767094983,2.814760767094983
+uncorrelated: pop_name=='['CS']',cortex: pop_name=='['CS']',1.0595471137384114,1.0595471137384114
+uncorrelated: pop_name=='['CP']',cortex: pop_name=='['CS']',0.17805901724026604,0.17805901724026604
+uncorrelated: pop_name=='['CS']',cortex: pop_name=='['CP']',1.5555900119520625,1.5555900119520625
+uncorrelated: pop_name=='['FSI']',cortex: pop_name=='['FSI']',8.756302521008404,8.756302521008404
+uncorrelated: pop_name=='['LTS']',cortex: pop_name=='['LTS']',1.639371381306865,1.639371381306865
+uncorrelated: pop_name=='['FSI']',cortex: pop_name=='['LTS']',2.408706677937447,2.408706677937447
+uncorrelated: pop_name=='['LTS']',cortex: pop_name=='['FSI']',4.881298756061565,4.881298756061565
+uncorrelated: pop_name=='['CP']',cortex: pop_name=='['FSI']',1.7507587008458707,1.7507587008458707
+uncorrelated: pop_name=='['FSI']',cortex: pop_name=='['CP']',3.8382676147382027,3.8382676147382027
+uncorrelated: pop_name=='['CS']',cortex: pop_name=='['FSI']',2.111509513195723,2.111509513195723
+uncorrelated: pop_name=='['FSI']',cortex: pop_name=='['CS']',3.451906916612799,3.451906916612799
+uncorrelated: pop_name=='['CP']',cortex: pop_name=='['LTS']',2.1718314616228995,2.1718314616228995
+uncorrelated: pop_name=='['LTS']',cortex: pop_name=='['CP']',4.308075057980181,4.308075057980181
+uncorrelated: pop_name=='['CS']',cortex: pop_name=='['LTS']',2.404004562159422,2.404004562159422
+uncorrelated: pop_name=='['LTS']',cortex: pop_name=='['CS']',1.1103520978283785,1.1103520978283785

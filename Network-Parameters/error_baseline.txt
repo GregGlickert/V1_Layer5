@@ -1,0 +1,6 @@
+NEURON -- VERSION 8.2.3 HEAD (f0ed37010) 2023-09-14
+Duke, Yale, and the BlueBrain Project -- Copyright 1984-2022
+See http://neuron.yale.edu/neuron/credits
+
+Additional mechanisms from files
+ "modfiles/AMPA_NMDA_STP.mod" "modfiles/cadad.mod" "modfiles/cal2.mod" "modfiles/can_mig.mod" "modfiles/exp2syn_stp.mod" "modfiles/gap.mod" "modfiles/Gfluct.mod" "modfiles/h_kole.mod" "modfiles/imCA3.mod" "modfiles/kap_BS.mod" "modfiles/kBK.mod" "modfiles/kdmc_BS.mod" "modfiles/kdr_BS.mod" "modfiles/kdrCA3.mod" "modfiles/kdrinter.mod" "modfiles/leak.mod" "modfiles/nainter.mod" "modfiles/napCA3.mod" "modfiles/natCA3.mod" "modfiles/nax_BS.mod" "modfiles/vecevent.mod"

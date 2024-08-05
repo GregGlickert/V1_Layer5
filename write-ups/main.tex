@@ -1,0 +1,80 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{float} % Figure placement with H
+\usepackage[table]{xcolor} % for making tables look good
+\usepackage{tabularx}
+\usepackage{geometry}
+\geometry{
+  left=0.5in,
+  right=0.5in,
+  top=0.5in,
+  bottom=0.5in
+}
+
+\title{V1 Layer 5 Network Model}
+% \author{Gregory Glickert and Khuram Choudhry}
+\date{Aug 1, 2024}
+
+\begin{document}
+\pagestyle{empty} % removes page number on rest of pages
+\maketitle
+\thispagestyle{empty} % removes page number on first page
+
+\section*{Single Cells}
+
+\begin{table}[H]
+    \centering
+    \caption{Cell properties}
+    \begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|}
+    \hline
+    Cell & Apical Length (um) & V-Rest (mV) & R\_in (Mohms) & Tau\_m (ms) & Rheobase (pA) & FI curve slope \\ \hline
+    \end{tabularx}
+  \end{table}
+
+
+\section*{Synapses}
+\begin{table}[H]
+    \centering
+    \caption{Synaptic Properties of V1 L5 synapses\cite{Campagnola2022}}
+    \begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|}
+      \hline
+      Pre2Post & Latency (ms) & Rise Time (ms) & Decay tau (ms) & Rest Amp (mV) & 90\% Amp (mV) & STP Induction & STP Recovery \\ \hline
+      CP2CP & 1.92 & 4.27 & 20.2 & 0.27 & 0.31 & -0.48 & -0.16 \\ \hline
+      CS2CS & 1.75 & 3.49 & 15.5 & 0.24 & 0.32 & -0.31 & -0.06 \\ \hline
+      CS2CP & 1.32 & 3.88 & 14.2 & 0.19 & 0.33 & -0.04 & -0.14 \\ \hline
+      CP2FSI & 1.31 & 2.36 & 10.6 & 1.01 & 1.01 & -0.65 & -0.23 \\ \hline
+      CS2FSI & 1.24 & 2.52 & 6.8 & 0.48 & 0.69 & -0.47 & -0.07 \\ \hline
+      CP2LTS & 1.33 & 3.36 & 36.6 & 0.05 & 0.43 & 0.11 & 0.07 \\ \hline
+      CS2LTS & 1.43 & 3.14 & 14.0 & 0.09 & 0.83 & 0.09 & 0.07 \\ \hline
+      FSI2CP & 0.88 & 4.85 & 50.9 & -0.32 & -0.32 & -0.57 & -0.02 \\ \hline
+      FSI2CS & 0.88 & 4.85 & 54.1 & -0.52 & -0.60 & -0.59 & -0.22 \\ \hline
+      LTS2CP & 1.26 & 7.99 & 47.9 & -0.19 & -0.41 & -0.06 & 0.07 \\ \hline
+      LTS2CS & 1.27 & 7.46 & 58.7 & -0.11 & -0.26 & -0.11 & 0.05 \\ \hline
+      FSI2FSI & 1.01 & 2.79 & 15.7 & -0.47 & -0.53 & -0.50 & -0.15 \\ \hline
+      FSI2LTS & 1.06 & 4.44 & 25.2 & -0.44 & -0.60 & -0.33 & -0.12 \\ \hline
+      LTS2FSI & 1.20 & 4.13 & 15.7 & -0.18 & -0.43 & -0.13 & 0.04 \\ \hline
+      LTS2LTS & 1.41 & 6.83 & 69.9 & -0.19 & -0.43 & -0.16 & -0.02 \\ \hline
+    \end{tabularx}
+    \label{table:syn-prop}
+  \end{table}
+
+  \begin{table}[H]
+    \centering
+    \caption{Synaptic Properties of model synapses}
+    \begin{tabularx}{\textwidth}{|X|X|X|X|X|X|X|X|}
+      \hline
+      Pre2Post & Latency (ms) & Rise Time (ms) & Decay tau (ms) & Rest Amp (mV) & 90\% Amp (mV) & STP Induction & STP Recovery \\ \hline
+    \end{tabularx}
+    \label{table:syn-prop-model}
+\end{table}
+
+
+
+\section*{Connectivity}
+
+
+\section*{Model Output}
+
+\bibliographystyle{plain}
+\bibliography{export}
+
+\end{document}

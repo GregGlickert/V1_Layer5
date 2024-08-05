@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "main.py", line 32, in <module>
+    block = SimulationBlock(block_name, **block_params, simulation_cases=simulation_cases)
+TypeError: __init__() missing 1 required positional argument: 'account'

@@ -7,17 +7,17 @@ import os
 import copy
 
 
-ROOT_DIR_NAME = 'V1_L5_Model'
+ROOT_DIR_NAME = 'V1-Model-Greg-Khuram'
 
 STIMULUS_CONFIG = {
-    'baseline': 'config_baseline.json',
-    'short': 'config_short.json',
-    'long': 'config_long.json',
+    'baseline': 'sonata_config.json',
+    'short': 'sonata_config.json',
+    'long': 'sonata_config.json',
     'const': 'config_const.json',
     'ramp': 'config.json',
     'join': 'config.json',
     'fade': 'config.json',
-    'else': 'config.json'
+    'else': 'sonata_config.json'
 }
 
 
@@ -36,6 +36,8 @@ class ConfigHelper(object):
         while True:
             path = abs_path
             abs_path, tail = os.path.split(abs_path)
+            print(abs_path,tail)
+            print(self.root_dir_name)
             if tail == '':
                 raise NotADirectoryError("Root directory not found")
             if self.root_dir_name in tail:
@@ -71,8 +73,11 @@ class ConfigHelper(object):
 
 
 def stimulus_type_from_trial_name(trial_name):
-    stim_type = next(s for s in trial_name.split('_') if s in STIMULUS_CONFIG)
+    parts = trial_name.replace('/', '_').split('_')
+    # Find the stim_type in the split parts
+    stim_type = next((s for s in parts if s in STIMULUS_CONFIG), None)
     return stim_type, STIMULUS_CONFIG[stim_type]
+
 
 
 def get_trial_info(TRIAL_PATH):
@@ -106,27 +111,6 @@ def get_trial_info(TRIAL_PATH):
     paths = (INPUT_PATH, NODE_FILES, SPIKE_FILE)
     stim_info = (t_stop, stim_setting, stim_params)
     return stim_type, paths, stim_info, config_hp
-
-
-def get_trial_label(trial_name):
-    """Convert file name format into labels for demonstration"""
-    single = isinstance(trial_name, str)
-    if single:
-        trial_name = [trial_name]
-    trial_label = {}
-    for tr in trial_name:
-        ntr = tr.replace('rand', 'random').replace('div', 'strong')
-        if '_a' in tr:
-            ntr = ntr.split('_')
-            ntr = '_'.join(ntr[:-1]).replace('_a', '_' + ntr[-1])
-        if '_down' in tr:
-            ntr = ntr.replace('_down', '').replace('ramp', 'down')
-        if '_quit' in tr:
-            ntr = ntr.replace('_quit', '').replace('join', 'quit')
-        trial_label[tr] = ntr
-    if single:
-        trial_label = trial_label[trial_name[0]]
-    return trial_label
 
 
 def map_json_inplace(val, func, obj=None, key=None):

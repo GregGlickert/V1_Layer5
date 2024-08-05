@@ -1,0 +1,144 @@
+Started running at Thu May  2 09:15:40 CDT 2024.
+NOT EDITING JSONS
+numprocs=45
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+2024-05-02 09:15:49,562 [INFO] Created log file
+2024-05-02 09:15:49,576 [INFO] Running NEURON with mpi (45 cores).
+2024-05-02 09:15:49,910 [INFO] Building cells.
+2024-05-02 09:15:50,003 [INFO] Building recurrent connections
+2024-05-02 09:15:58,003 [INFO] Building virtual cell stimulations for baseline_spikes
+2024-05-02 09:15:58,843 [INFO] Building virtual cell stimulations for uncorrelated_spikes
+2024-05-02 09:16:02,010 [INFO] Running simulation for 14500.000 ms with the time step 0.100 ms
+2024-05-02 09:16:02,011 [INFO] Starting timestep: 0 at t_sim: 0.000 ms
+2024-05-02 09:16:02,011 [INFO] Block save every 5000 steps
+2024-05-02 09:16:27,700 [INFO]     step:5000 t_sim:500.00 ms
+2024-05-02 09:16:54,459 [INFO]     step:10000 t_sim:1000.00 ms
+2024-05-02 09:17:21,324 [INFO]     step:15000 t_sim:1500.00 ms
+2024-05-02 09:17:48,150 [INFO]     step:20000 t_sim:2000.00 ms
+2024-05-02 09:18:14,500 [INFO]     step:25000 t_sim:2500.00 ms
+2024-05-02 09:18:40,498 [INFO]     step:30000 t_sim:3000.00 ms
+2024-05-02 09:19:06,596 [INFO]     step:35000 t_sim:3500.00 ms
+2024-05-02 09:19:32,681 [INFO]     step:40000 t_sim:4000.00 ms
+2024-05-02 09:19:58,913 [INFO]     step:45000 t_sim:4500.00 ms
+2024-05-02 09:20:25,230 [INFO]     step:50000 t_sim:5000.00 ms
+2024-05-02 09:20:51,538 [INFO]     step:55000 t_sim:5500.00 ms
+2024-05-02 09:21:18,018 [INFO]     step:60000 t_sim:6000.00 ms
+2024-05-02 09:21:44,598 [INFO]     step:65000 t_sim:6500.00 ms
+2024-05-02 09:22:11,271 [INFO]     step:70000 t_sim:7000.00 ms
+2024-05-02 09:22:38,003 [INFO]     step:75000 t_sim:7500.00 ms
+2024-05-02 09:23:04,113 [INFO]     step:80000 t_sim:8000.00 ms
+2024-05-02 09:23:30,388 [INFO]     step:85000 t_sim:8500.00 ms
+2024-05-02 09:23:57,024 [INFO]     step:90000 t_sim:9000.00 ms
+2024-05-02 09:24:23,491 [INFO]     step:95000 t_sim:9500.00 ms
+2024-05-02 09:24:50,349 [INFO]     step:100000 t_sim:10000.00 ms
+2024-05-02 09:25:17,355 [INFO]     step:105000 t_sim:10500.00 ms
+2024-05-02 09:25:44,248 [INFO]     step:110000 t_sim:11000.00 ms
+2024-05-02 09:26:11,185 [INFO]     step:115000 t_sim:11500.00 ms
+2024-05-02 09:26:38,297 [INFO]     step:120000 t_sim:12000.00 ms
+2024-05-02 09:27:05,147 [INFO]     step:125000 t_sim:12500.00 ms
+2024-05-02 09:27:32,253 [INFO]     step:130000 t_sim:13000.00 ms
+2024-05-02 09:27:59,418 [INFO]     step:135000 t_sim:13500.00 ms
+2024-05-02 09:28:26,548 [INFO]     step:140000 t_sim:14000.00 ms
+2024-05-02 09:28:49,307 [INFO]     step:145000 t_sim:14500.00 ms
+2024-05-02 09:28:50,588 [INFO] Simulation completed in 12.0 minutes, 48.58 seconds 
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+simulation_config_baseline.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/baseline-runs/baseline_2
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 443080 RUNNING AT engr-nelvm-res
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
+Done running simulation at Thu May  2 09:28:51 CDT 2024

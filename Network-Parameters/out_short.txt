@@ -1,0 +1,145 @@
+Started running at Thu May  2 09:15:40 CDT 2024.
+NOT EDITING JSONS
+numprocs=45
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+2024-05-02 09:15:49,596 [INFO] Created log file
+2024-05-02 09:15:49,598 [INFO] Running NEURON with mpi (45 cores).
+2024-05-02 09:15:49,809 [INFO] Building cells.
+2024-05-02 09:15:49,987 [INFO] Building recurrent connections
+2024-05-02 09:15:58,107 [INFO] Building virtual cell stimulations for baseline_spikes
+2024-05-02 09:15:58,924 [INFO] Building virtual cell stimulations for thalamus_spikes
+2024-05-02 09:15:59,114 [INFO] Building virtual cell stimulations for uncorrelated_spikes
+2024-05-02 09:16:02,662 [INFO] Running simulation for 14500.000 ms with the time step 0.100 ms
+2024-05-02 09:16:02,662 [INFO] Starting timestep: 0 at t_sim: 0.000 ms
+2024-05-02 09:16:02,662 [INFO] Block save every 5000 steps
+2024-05-02 09:16:28,371 [INFO]     step:5000 t_sim:500.00 ms
+2024-05-02 09:16:55,116 [INFO]     step:10000 t_sim:1000.00 ms
+2024-05-02 09:17:21,923 [INFO]     step:15000 t_sim:1500.00 ms
+2024-05-02 09:17:48,749 [INFO]     step:20000 t_sim:2000.00 ms
+2024-05-02 09:18:15,080 [INFO]     step:25000 t_sim:2500.00 ms
+2024-05-02 09:18:41,091 [INFO]     step:30000 t_sim:3000.00 ms
+2024-05-02 09:19:07,178 [INFO]     step:35000 t_sim:3500.00 ms
+2024-05-02 09:19:33,262 [INFO]     step:40000 t_sim:4000.00 ms
+2024-05-02 09:19:59,493 [INFO]     step:45000 t_sim:4500.00 ms
+2024-05-02 09:20:25,795 [INFO]     step:50000 t_sim:5000.00 ms
+2024-05-02 09:20:52,079 [INFO]     step:55000 t_sim:5500.00 ms
+2024-05-02 09:21:18,546 [INFO]     step:60000 t_sim:6000.00 ms
+2024-05-02 09:21:45,154 [INFO]     step:65000 t_sim:6500.00 ms
+2024-05-02 09:22:11,821 [INFO]     step:70000 t_sim:7000.00 ms
+2024-05-02 09:22:38,475 [INFO]     step:75000 t_sim:7500.00 ms
+2024-05-02 09:23:04,352 [INFO]     step:80000 t_sim:8000.00 ms
+2024-05-02 09:23:30,507 [INFO]     step:85000 t_sim:8500.00 ms
+2024-05-02 09:23:57,129 [INFO]     step:90000 t_sim:9000.00 ms
+2024-05-02 09:24:23,421 [INFO]     step:95000 t_sim:9500.00 ms
+2024-05-02 09:24:50,212 [INFO]     step:100000 t_sim:10000.00 ms
+2024-05-02 09:25:17,149 [INFO]     step:105000 t_sim:10500.00 ms
+2024-05-02 09:25:43,910 [INFO]     step:110000 t_sim:11000.00 ms
+2024-05-02 09:26:10,730 [INFO]     step:115000 t_sim:11500.00 ms
+2024-05-02 09:26:37,759 [INFO]     step:120000 t_sim:12000.00 ms
+2024-05-02 09:27:04,489 [INFO]     step:125000 t_sim:12500.00 ms
+2024-05-02 09:27:31,544 [INFO]     step:130000 t_sim:13000.00 ms
+2024-05-02 09:27:58,655 [INFO]     step:135000 t_sim:13500.00 ms
+2024-05-02 09:28:25,524 [INFO]     step:140000 t_sim:14000.00 ms
+2024-05-02 09:28:47,933 [INFO]     step:145000 t_sim:14500.00 ms
+2024-05-02 09:28:49,380 [INFO] Simulation completed in 12.0 minutes, 46.97 seconds 
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+simulation_config_short.json
+Output directory updated to /home/group/V1-Model-Greg-Khuram/Run-Storage/Greg-runs/short-runs/short_2
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 443127 RUNNING AT engr-nelvm-res
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
+Done running simulation at Thu May  2 09:28:50 CDT 2024
